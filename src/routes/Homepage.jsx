@@ -14,19 +14,19 @@ const Homepage = () => {
       </div>
       {/* INTRODUCTION */}
       <div
-        className="relative bg-cover bg-center py-16 px-6"
+        className="md:relative bg-cover bg-center py-16 px-6"
         style={{
           backgroundImage:
             "url('https://ik.imagekit.io/9xzx6mhp4g/DALL_E%202025-02-09%2012.19.15%20-%20A%20stylish%20and%20minimalist%20blog%20cover%20image%20featuring%20a%20balanced%20collage%20of%20photography,%20food,%20and%20lifestyle%20elements.%20The%20design%20includes%20a%20vintage%20cam.webp?updatedAt=1739092837200')",
         }}
       >
-        <div className="absolute inset-0 bg-black opacity-50"></div>{" "}
+        <div className="md:absolute inset-0 bg-black opacity-50"></div>{" "}
         {/* Dark overlay */}
-        <div className="relative z-10 text-white">
+        <div className="md:relative text-white">
           {/* Titles */}
           <div>
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-4">
-              The Daily Pulse: Your Source for News, Trends, and Insights
+              The Art is a Bliss: Your Source for News, Trends, and Insights
             </h1>
             <p className="text-lg md:text-xl">
               Stay informed with the latest news, trends, and stories that
@@ -36,7 +36,7 @@ const Homepage = () => {
 
           {/* Animated button */}
           <div className="flex justify-center items-center text-lg md:text-xl text-white mt-8">
-            <Link to="write" className="relative">
+            <Link to="write" className="hidden md:block relative">
               <svg
                 viewBox="0 0 200 200"
                 width="200"
